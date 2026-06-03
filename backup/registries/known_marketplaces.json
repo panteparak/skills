@@ -1,0 +1,26 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/Users/panteparak/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-05-27T03:55:27.813Z"
+  },
+  "claude-code-plugins": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-code"
+    },
+    "installLocation": "/Users/panteparak/.claude/plugins/marketplaces/claude-code-plugins",
+    "lastUpdated": "2026-05-27T03:55:31.447Z"
+  },
+  "ui-ux-pro-max-skill": {
+    "source": {
+      "source": "github",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    "installLocation": "/Users/panteparak/.claude/plugins/marketplaces/ui-ux-pro-max-skill",
+    "lastUpdated": "2026-03-20T08:26:32.484Z"
+  }
+}
