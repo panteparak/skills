@@ -1,0 +1,8 @@
+{
+  "name": "dev-go",
+  "version": "0.1.0",
+  "description": "Develop features in Go services using clean architecture, TDD, and idiomatic Go patterns. Use when writing Go backend code.",
+  "author": {
+    "name": "panteparak"
+  }
+}

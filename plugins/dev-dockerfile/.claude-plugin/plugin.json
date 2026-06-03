@@ -1,0 +1,8 @@
+{
+  "name": "dev-dockerfile",
+  "version": "0.1.0",
+  "description": "Create production-grade Dockerfiles with multi-stage builds, security hardening, and optimal layer caching. Use when writing or improving Dockerfiles.",
+  "author": {
+    "name": "panteparak"
+  }
+}

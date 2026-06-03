@@ -1,0 +1,8 @@
+{
+  "name": "git-pr",
+  "version": "0.1.0",
+  "description": "Create well-structured pull requests with proper title, description, and test plan using the gh CLI. Use when creating or updating pull requests.",
+  "author": {
+    "name": "panteparak"
+  }
+}

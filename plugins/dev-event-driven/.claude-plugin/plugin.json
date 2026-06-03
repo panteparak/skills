@@ -1,0 +1,8 @@
+{
+  "name": "dev-event-driven",
+  "version": "0.1.0",
+  "description": "Design and implement event-driven architecture patterns with Kafka, RabbitMQ, or cloud-native messaging. Use when building async messaging, event sourcing, or pub/sub systems.",
+  "author": {
+    "name": "panteparak"
+  }
+}

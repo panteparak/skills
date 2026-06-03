@@ -1,0 +1,8 @@
+{
+  "name": "ux-audit",
+  "version": "0.1.0",
+  "description": "Perform a UX audit on a web/mobile application checking usability heuristics, accessibility, and user flow quality. Use when reviewing UI/UX of an application.",
+  "author": {
+    "name": "panteparak"
+  }
+}

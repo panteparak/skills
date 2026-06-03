@@ -1,0 +1,8 @@
+{
+  "name": "dev-ci-github",
+  "version": "0.1.0",
+  "description": "Create GitHub Actions CI/CD workflows for testing, linting, building, and deploying applications. Use when setting up or improving CI/CD pipelines.",
+  "author": {
+    "name": "panteparak"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "init-springboot",
+  "version": "0.1.0",
+  "description": "Scaffold a new Spring Boot + Kotlin project with DDD, TDD, and clean architecture. Use when creating a new Spring Boot backend service.",
+  "author": {
+    "name": "panteparak"
+  }
+}

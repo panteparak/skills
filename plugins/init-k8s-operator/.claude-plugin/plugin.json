@@ -1,0 +1,8 @@
+{
+  "name": "init-k8s-operator",
+  "version": "0.1.0",
+  "description": "Scaffold a new Kubernetes operator using kubebuilder or operator-sdk. Use when creating a K8s custom controller or operator.",
+  "author": {
+    "name": "panteparak"
+  }
+}

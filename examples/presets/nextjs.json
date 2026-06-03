@@ -1,0 +1,17 @@
+{
+  "extraKnownMarketplaces": {
+    "panteparak-skills": {
+      "source": { "source": "github", "repo": "panteparak/skills" }
+    }
+  },
+  "enabledPlugins": {
+    "init-nextjs@panteparak-skills": true,
+    "dev-nextjs@panteparak-skills": true,
+    "design-system@panteparak-skills": true,
+    "test-unit@panteparak-skills": true,
+    "test-e2e@panteparak-skills": true,
+    "ux-audit@panteparak-skills": true,
+    "git-commit@panteparak-skills": true,
+    "git-pr@panteparak-skills": true
+  }
+}

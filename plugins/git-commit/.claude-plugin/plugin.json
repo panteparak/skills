@@ -1,0 +1,8 @@
+{
+  "name": "git-commit",
+  "version": "0.1.0",
+  "description": "Create well-structured git commits with conventional commit messages, proper staging, and pre-commit checks. Use when committing code changes.",
+  "author": {
+    "name": "panteparak"
+  }
+}

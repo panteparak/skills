@@ -1,0 +1,8 @@
+{
+  "name": "dev-helm",
+  "version": "0.1.0",
+  "description": "Create or modify Helm charts for Kubernetes deployments with proper templating, values, and best practices. Use when building or updating Helm charts.",
+  "author": {
+    "name": "panteparak"
+  }
+}

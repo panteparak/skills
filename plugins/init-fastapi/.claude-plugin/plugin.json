@@ -1,0 +1,8 @@
+{
+  "name": "init-fastapi",
+  "version": "0.1.0",
+  "description": "Scaffold a new FastAPI project with clean architecture, async patterns, and TDD using uv. Use when creating a new FastAPI backend service.",
+  "author": {
+    "name": "panteparak"
+  }
+}

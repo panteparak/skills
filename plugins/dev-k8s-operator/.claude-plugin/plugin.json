@@ -1,0 +1,8 @@
+{
+  "name": "dev-k8s-operator",
+  "version": "0.1.0",
+  "description": "Develop Kubernetes operator features with proper reconciliation patterns, CRD design, and testing. Use when writing K8s controller/operator code.",
+  "author": {
+    "name": "panteparak"
+  }
+}

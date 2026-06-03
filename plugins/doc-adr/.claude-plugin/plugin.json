@@ -1,0 +1,8 @@
+{
+  "name": "doc-adr",
+  "version": "0.1.0",
+  "description": "Create Architecture Decision Records (ADRs) documenting significant technical decisions with context, alternatives, and consequences. Use when making or documenting architectural choices.",
+  "author": {
+    "name": "panteparak"
+  }
+}

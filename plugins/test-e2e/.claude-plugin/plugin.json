@@ -1,0 +1,8 @@
+{
+  "name": "test-e2e",
+  "version": "0.1.0",
+  "description": "Write end-to-end tests for full user workflows using Playwright, Cypress, or API-level E2E tests. Use when testing complete user journeys.",
+  "author": {
+    "name": "panteparak"
+  }
+}

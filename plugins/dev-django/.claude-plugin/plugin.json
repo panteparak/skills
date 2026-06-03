@@ -1,0 +1,8 @@
+{
+  "name": "dev-django",
+  "version": "0.1.0",
+  "description": "Develop features in Django + DRF projects using services/selectors pattern, TDD, and sub-app architecture. Use when writing Django backend code.",
+  "author": {
+    "name": "panteparak"
+  }
+}

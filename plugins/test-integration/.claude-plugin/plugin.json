@@ -1,0 +1,8 @@
+{
+  "name": "test-integration",
+  "version": "0.1.0",
+  "description": "Write integration tests for APIs, databases, and external system boundaries using Testcontainers and real dependencies. Use when testing system boundaries.",
+  "author": {
+    "name": "panteparak"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "dev-nextjs",
+  "version": "0.1.0",
+  "description": "Develop features in Next.js + React + TypeScript projects with App Router, Server Components, and testing. Use when writing Next.js frontend code.",
+  "author": {
+    "name": "panteparak"
+  }
+}

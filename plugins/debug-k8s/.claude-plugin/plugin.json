@@ -1,0 +1,8 @@
+{
+  "name": "debug-k8s",
+  "version": "0.1.0",
+  "description": "Debug Kubernetes issues including pod failures, networking, RBAC, and operator problems. Use when troubleshooting K8s deployments or operators.",
+  "author": {
+    "name": "panteparak"
+  }
+}

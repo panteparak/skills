@@ -1,0 +1,17 @@
+{
+  "extraKnownMarketplaces": {
+    "panteparak-skills": {
+      "source": { "source": "github", "repo": "panteparak/skills" }
+    }
+  },
+  "enabledPlugins": {
+    "init-springboot@panteparak-skills": true,
+    "dev-springboot@panteparak-skills": true,
+    "dev-api@panteparak-skills": true,
+    "test-unit@panteparak-skills": true,
+    "test-integration@panteparak-skills": true,
+    "git-commit@panteparak-skills": true,
+    "git-pr@panteparak-skills": true,
+    "review-code@panteparak-skills": true
+  }
+}

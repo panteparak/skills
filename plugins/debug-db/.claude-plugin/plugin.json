@@ -1,0 +1,8 @@
+{
+  "name": "debug-db",
+  "version": "0.1.0",
+  "description": "Debug database issues including slow queries, deadlocks, migration failures, and data integrity problems. Use when troubleshooting database-related issues.",
+  "author": {
+    "name": "panteparak"
+  }
+}
