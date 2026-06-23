@@ -1,8 +1,0 @@
-{
-  "name": "dev-maintain",
-  "version": "0.1.0",
-  "description": "Audit and improve code maintainability \u2014 SOLID principles, coupling analysis, complexity reduction, dependency health, and tech debt management. Use when assessing or improving code quality and maintainability.",
-  "author": {
-    "name": "panteparak"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "dev-plan",
-  "version": "0.1.0",
-  "description": "Create or update project plan documentation \u2014 module maps, architecture docs, dependency diagrams, and development roadmaps. Use when documenting or planning project architecture.",
-  "author": {
-    "name": "panteparak"
-  }
-}

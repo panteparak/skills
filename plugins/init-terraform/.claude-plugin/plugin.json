@@ -1,8 +1,0 @@
-{
-  "name": "init-terraform",
-  "version": "0.1.0",
-  "description": "Scaffold Terraform infrastructure-as-code projects with proper module structure, state management, and environment separation. Use when creating or organizing Terraform IaC.",
-  "author": {
-    "name": "panteparak"
-  }
-}

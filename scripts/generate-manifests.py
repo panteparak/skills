@@ -73,8 +73,8 @@ def main() -> None:
         "name": MARKETPLACE_NAME,
         "owner": {"name": OWNER},
         "metadata": {
-            "description": "Pan Teparak's self-authored development skills, "
-            "one plugin per skill for fine-grained per-repo enablement.",
+            "description": "Pan Teparak's skill setup: a stack-aware installer that "
+            "recommends and installs curated popular Claude Code skills per project.",
             "version": VERSION,
         },
         "plugins": entries,

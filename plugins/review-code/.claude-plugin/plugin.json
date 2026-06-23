@@ -1,8 +1,0 @@
-{
-  "name": "review-code",
-  "version": "0.1.0",
-  "description": "Perform a thorough code review checking architecture, correctness, security, performance, testing, and code quality. Use when reviewing code changes or pull requests.",
-  "author": {
-    "name": "panteparak"
-  }
-}

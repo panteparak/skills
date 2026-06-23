@@ -1,8 +1,0 @@
-{
-  "name": "init-flutter",
-  "version": "0.1.0",
-  "description": "Scaffold a new Flutter mobile/web app with clean architecture and testing. Use when creating a new Flutter application.",
-  "author": {
-    "name": "panteparak"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "security-threat-model",
-  "version": "0.1.0",
-  "description": "Create a threat model for a system or feature using STRIDE methodology. Use when designing or reviewing system security architecture.",
-  "author": {
-    "name": "panteparak"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "refactor-code",
-  "version": "0.1.0",
-  "description": "Systematically refactor code using proven patterns while maintaining behavior. Use when improving code structure, reducing complexity, or paying down tech debt.",
-  "author": {
-    "name": "panteparak"
-  }
-}

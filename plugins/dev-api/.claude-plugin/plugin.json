@@ -1,8 +1,0 @@
-{
-  "name": "dev-api",
-  "version": "0.1.0",
-  "description": "Design and implement REST APIs using OpenAPI-first approach with proper versioning, error handling, and documentation. Use when designing or implementing API endpoints.",
-  "author": {
-    "name": "panteparak"
-  }
-}

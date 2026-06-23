@@ -1,8 +1,0 @@
-{
-  "name": "test-unit",
-  "version": "0.1.0",
-  "description": "Write unit tests following TDD with proper patterns for any language. Use when you need to write or improve unit tests.",
-  "author": {
-    "name": "panteparak"
-  }
-}

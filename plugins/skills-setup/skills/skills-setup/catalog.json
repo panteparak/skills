@@ -1,0 +1,312 @@
+{
+  "_readme": "Curated index of popular Claude Code skills. EDIT THIS FILE to add/remove skills or change stack mappings. Verified against the GitHub API on 2026-06-23. 'type' is one of: marketplace (claude plugin), skills-cli (npx skills add), manual (clone/copy). recommend-skills.py reads this file.",
+  "version": "1.0.0",
+  "verifiedAt": "2026-06-23",
+  "skills": {
+    "superpowers": {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "type": "marketplace",
+      "marketplaceId": "superpowers-dev",
+      "plugins": ["superpowers"],
+      "install": "claude plugin marketplace add obra/superpowers && claude plugin install superpowers@superpowers-dev",
+      "tags": ["universal", "tdd", "planning", "review", "workflow"],
+      "purpose": "Disciplined engineering workflow: brainstorm -> plan -> execute with strict red/green/refactor TDD.",
+      "stars": 236683,
+      "license": "MIT",
+      "note": "Broader than a plain TDD loop; overlaps the local 'tdd' skill."
+    },
+    "ponytail": {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "type": "marketplace",
+      "marketplaceId": "ponytail",
+      "plugins": ["ponytail"],
+      "install": "claude plugin marketplace add DietrichGebert/ponytail && claude plugin install ponytail@ponytail",
+      "tags": ["universal", "minimalist-code", "yagni"],
+      "purpose": "Makes the agent write minimalist code via a 'lazy senior dev' decision ladder (YAGNI -> stdlib -> existing dep).",
+      "stars": 51542,
+      "license": "MIT",
+      "note": "Explicitly requested. Very actively maintained."
+    },
+    "anthropic-skills": {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "type": "marketplace",
+      "marketplaceId": "anthropic-agent-skills",
+      "plugins": ["example-skills"],
+      "install": "claude plugin marketplace add anthropics/skills && claude plugin install example-skills@anthropic-agent-skills",
+      "tags": ["universal", "official", "skill-creator", "webapp-testing"],
+      "purpose": "Official Anthropic skills. example-skills bundles skill-creator, webapp-testing, frontend-design, mcp-builder, etc.",
+      "stars": 154232,
+      "license": "source-available",
+      "note": "Also ships document-skills (docx/pdf/pptx/xlsx) and claude-api. The user already has the document skills."
+    },
+    "addy-agent-skills": {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "type": "marketplace",
+      "marketplaceId": "addy-agent-skills",
+      "plugins": ["agent-skills"],
+      "install": "claude plugin install agent-skills@addy-agent-skills",
+      "tags": ["universal", "engineering", "frontend", "performance"],
+      "purpose": "Addy Osmani's production-grade general engineering skills.",
+      "stars": 65767,
+      "license": "MIT",
+      "note": "Marketplace already registered globally on this machine (known_marketplaces.json)."
+    },
+    "wshobson-agents": {
+      "repo": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "type": "marketplace",
+      "marketplaceId": "claude-code-workflows",
+      "plugins": ["comprehensive-review", "code-refactoring", "documentation-generation"],
+      "install": "claude plugin marketplace add wshobson/agents && claude plugin install comprehensive-review@claude-code-workflows",
+      "tags": ["universal", "review", "refactor", "docs", "api"],
+      "purpose": "Large workflow marketplace (50 plugins): code review, refactoring, docs/ADR, API, k8s, security, observability.",
+      "stars": 37084,
+      "license": "MIT",
+      "note": "50 plugins total. Curated default enables review/refactor/docs; browse for api-scaffolding, kubernetes-operations, security-scanning, c4-architecture, tdd-workflows, etc."
+    },
+    "solid": {
+      "repo": "ramziddin/solid-skills",
+      "url": "https://github.com/ramziddin/solid-skills",
+      "type": "skills-cli",
+      "skillsCli": "npx skills add ramziddin/solid-skills --skill solid",
+      "skills": ["solid"],
+      "tags": ["universal", "solid", "tdd", "clean-architecture"],
+      "purpose": "Senior-engineer-quality code via SOLID, TDD, value objects, Law of Demeter.",
+      "stars": 453,
+      "license": "none",
+      "note": "Explicitly requested. WARNING: no license file and ~2 months stale; the user also has a local 'solid' skill."
+    },
+    "cc-skills-golang": {
+      "repo": "samber/cc-skills-golang",
+      "url": "https://github.com/samber/cc-skills-golang",
+      "type": "skills-cli",
+      "skillsCli": "npx skills add samber/cc-skills-golang",
+      "skills": ["golang-code-style", "golang-error-handling", "golang-testing", "golang-design-patterns", "golang-concurrency", "golang-project-layout", "golang-observability", "golang-security"],
+      "tags": ["go"],
+      "purpose": "45-skill Go suite: idioms, code style, error handling, testing, concurrency, project layout, popular libs.",
+      "stars": 2260,
+      "license": "MIT",
+      "note": "Installs a suite; the 'skills' list above are the highest-value ones for this user's clean-arch/DDD Go work."
+    },
+    "spring-boot": {
+      "repo": "piomin/claude-ai-spring-boot",
+      "url": "https://github.com/piomin/claude-ai-spring-boot",
+      "type": "manual",
+      "install": "Clone the repo and copy its .claude/ skills into your project, or use it as a Spring Boot project template.",
+      "tags": ["kotlin", "spring-boot", "java", "jpa"],
+      "purpose": "Spring Boot / JPA best-practice skills + template by Piotr Minkowski.",
+      "stars": 1231,
+      "license": "Apache-2.0",
+      "note": "Manual: it's a template project (has pom.xml + CLAUDE.md + .claude/), not a one-command marketplace install."
+    },
+    "jeffallan-skills": {
+      "repo": "Jeffallan/claude-skills",
+      "url": "https://github.com/Jeffallan/claude-skills",
+      "type": "marketplace",
+      "marketplaceId": "fullstack-dev-skills",
+      "plugins": ["fullstack-dev-skills"],
+      "install": "claude plugin marketplace add Jeffallan/claude-skills && claude plugin install fullstack-dev-skills@fullstack-dev-skills",
+      "tags": ["django", "drf", "fastapi", "uv", "openapi", "python"],
+      "purpose": "66-skill collection incl. django-expert (Django 5/DRF), fastapi-patterns (async, uv, DI), api-designer (OpenAPI 3.1).",
+      "stars": 10150,
+      "license": "MIT",
+      "note": "One plugin bundles all 66 skills; multi-stack (also has Next.js, Flutter, Java)."
+    },
+    "vercel-react": {
+      "repo": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "type": "skills-cli",
+      "skillsCli": "npx skills add vercel-labs/agent-skills --skill react-best-practices",
+      "skills": ["react-best-practices", "composition-patterns", "web-design-guidelines"],
+      "tags": ["nextjs", "react", "typescript"],
+      "purpose": "Official Vercel React/Next.js best-practice skills (70 rules across 8 categories).",
+      "stars": 28243,
+      "license": "none",
+      "note": "Also ships react-native-skills, react-view-transitions, vercel-optimize, web-design-guidelines."
+    },
+    "angular": {
+      "repo": "angular/skills",
+      "url": "https://github.com/angular/skills",
+      "type": "skills-cli",
+      "skillsCli": "npx skills add angular/skills",
+      "skills": ["angular-developer", "angular-new-app"],
+      "tags": ["angular", "signals", "ssr"],
+      "purpose": "Official Angular team skills: architectural guidance (Signals, Signal Forms) + new-app scaffolding.",
+      "stars": 529,
+      "license": "none",
+      "note": "Official; angular.dev docs point here. Skills live at repo root (angular-developer/, angular-new-app/)."
+    },
+    "ui-ux-pro-max": {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "type": "marketplace",
+      "marketplaceId": "ui-ux-pro-max-skill",
+      "plugins": ["ui-ux-pro-max"],
+      "install": "claude plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill && claude plugin install ui-ux-pro-max@ui-ux-pro-max-skill",
+      "tags": ["ui", "ux", "design", "frontend"],
+      "purpose": "Design-intelligence DBs: 67 UI styles, 161 palettes, 57 font pairings, 99 UX guidelines, chart types.",
+      "stars": 95404,
+      "license": "MIT",
+      "note": "Explicitly requested. Complements 'frontend-design'. Also has a uipro-cli."
+    },
+    "vgv-flutter": {
+      "repo": "VeryGoodOpenSource/vgv-ai-flutter-plugin",
+      "url": "https://github.com/VeryGoodOpenSource/vgv-ai-flutter-plugin",
+      "type": "skills-cli",
+      "skillsCli": "npx skills add VeryGoodOpenSource/vgv-ai-flutter-plugin",
+      "skills": ["layered-architecture", "bloc", "testing", "create-project", "navigation"],
+      "tags": ["flutter", "dart"],
+      "purpose": "Flutter/Dart best-practice skills by Very Good Ventures (architecture, bloc, testing, theming, a11y).",
+      "stars": 131,
+      "license": "MIT",
+      "note": "Repo name says 'plugin' but it is skills-cli format (skills/ dir with 14 skills)."
+    },
+    "k8s": {
+      "repo": "LukasNiessen/kubernetes-skill",
+      "url": "https://github.com/LukasNiessen/kubernetes-skill",
+      "type": "marketplace",
+      "marketplaceId": "kubernetes-skill",
+      "plugins": ["kubernetes-skill"],
+      "install": "claude plugin marketplace add LukasNiessen/kubernetes-skill && claude plugin install kubernetes-skill@kubernetes-skill",
+      "tags": ["kubernetes", "helm", "best-practices"],
+      "purpose": "Grounds K8s/Helm answers in official best practices; anti-hallucination.",
+      "stars": 241,
+      "license": "MIT",
+      "note": "General K8s/Helm; for operator authoring see k8s-operator."
+    },
+    "k8s-operator": {
+      "repo": "Sagart-cactus/claude-k8s-plugin",
+      "url": "https://github.com/Sagart-cactus/claude-k8s-plugin",
+      "type": "marketplace",
+      "marketplaceId": "sagart-devtools",
+      "plugins": ["k8s"],
+      "install": "claude plugin marketplace add Sagart-cactus/claude-k8s-plugin && claude plugin install k8s@sagart-devtools",
+      "tags": ["kubebuilder", "controller-runtime", "crd", "operator"],
+      "purpose": "Scaffolds CRD operators with Kubebuilder + controller-runtime + Tilt loop. Closest match to this user's operator work.",
+      "stars": 34,
+      "license": "MIT",
+      "note": "Low adoption (34 stars); included because it specifically matches kubebuilder/controller-runtime operator development."
+    },
+    "terraform": {
+      "repo": "antonbabenko/terraform-skill",
+      "url": "https://github.com/antonbabenko/terraform-skill",
+      "type": "skills-cli",
+      "skillsCli": "npx skills add antonbabenko/terraform-skill",
+      "skills": ["terraform-skill"],
+      "tags": ["terraform", "opentofu", "iac", "modules"],
+      "purpose": "Production Terraform/OpenTofu patterns, module structure, testing, CI/CD, by Anton Babenko.",
+      "stars": 2046,
+      "license": "MIT-like",
+      "note": "Authoritative author (maintainer of the terraform-aws-modules ecosystem)."
+    },
+    "hashicorp": {
+      "repo": "hashicorp/agent-skills",
+      "url": "https://github.com/hashicorp/agent-skills",
+      "type": "marketplace",
+      "marketplaceId": "hashicorp",
+      "plugins": ["terraform-code-generation", "terraform-module-generation"],
+      "install": "claude plugin marketplace add hashicorp/agent-skills && claude plugin install terraform-code-generation@hashicorp",
+      "tags": ["terraform", "packer", "official"],
+      "purpose": "Official HashiCorp skills for generating/validating Terraform HCL and modules (+ Packer).",
+      "stars": 681,
+      "license": "MPL-2.0",
+      "note": "Plugins are terraform + packer focused (terraform-code-generation, terraform-module-generation, terraform-provider-development, packer-builders, packer-hcp). No dedicated Vault plugin despite the user using Vault."
+    },
+    "trailofbits-sec": {
+      "repo": "trailofbits/skills",
+      "url": "https://github.com/trailofbits/skills",
+      "type": "marketplace",
+      "marketplaceId": "trailofbits",
+      "plugins": ["static-analysis", "semgrep-rule-creator", "variant-analysis", "second-opinion"],
+      "install": "claude plugin marketplace add trailofbits/skills && claude plugin install static-analysis@trailofbits",
+      "tags": ["security", "audit", "semgrep", "static-analysis"],
+      "purpose": "Trail of Bits security/audit skills: static analysis, Semgrep rules, variant analysis, secure-contracts.",
+      "stars": 5834,
+      "license": "CC-BY-SA-4.0",
+      "note": "40-plugin marketplace; also has modern-python, c-review, property-based-testing, supply-chain-risk-auditor, mutation-testing."
+    },
+    "owasp": {
+      "repo": "agamm/claude-code-owasp",
+      "url": "https://github.com/agamm/claude-code-owasp",
+      "type": "manual",
+      "install": "Clone the repo and copy .claude/skills/ into your project (or ~/.claude/skills).",
+      "tags": ["security", "owasp-2025", "asvs"],
+      "purpose": "OWASP Top 10:2025 + ASVS 5.0 + language-specific security quirks.",
+      "stars": 250,
+      "license": "MIT",
+      "note": "Manual: skill lives under .claude/ (no plugin marketplace). Complements trailofbits-sec with a current OWASP checklist."
+    }
+  },
+  "universal": ["superpowers", "ponytail", "anthropic-skills", "addy-agent-skills", "solid", "wshobson-agents"],
+  "stacks": {
+    "go": {
+      "label": "Go",
+      "detect": { "anyOf": [ { "fileExists": "go.mod" }, { "glob": "**/*.go" } ] },
+      "skills": ["cc-skills-golang"]
+    },
+    "kotlin-spring": {
+      "label": "Kotlin / Spring Boot",
+      "detect": { "anyOf": [
+        { "fileContains": { "file": "build.gradle.kts", "pattern": "org.springframework" } },
+        { "fileContains": { "file": "build.gradle", "pattern": "org.springframework" } },
+        { "fileContains": { "file": "pom.xml", "pattern": "spring-boot" } }
+      ] },
+      "skills": ["spring-boot"]
+    },
+    "python-django": {
+      "label": "Django / DRF",
+      "detect": { "anyOf": [ { "fileExists": "manage.py" }, { "fileContains": { "file": "pyproject.toml", "pattern": "[Dd]jango" } }, { "glob": "**/settings.py" } ] },
+      "skills": ["jeffallan-skills"]
+    },
+    "python-fastapi": {
+      "label": "FastAPI",
+      "detect": { "anyOf": [ { "fileContains": { "file": "pyproject.toml", "pattern": "fastapi" } }, { "fileContains": { "file": "requirements.txt", "pattern": "fastapi" } } ] },
+      "skills": ["jeffallan-skills"]
+    },
+    "nextjs": {
+      "label": "Next.js / React",
+      "detect": { "allOf": [ { "fileExists": "package.json" }, { "jsonDep": { "file": "package.json", "dep": "next" } } ] },
+      "skills": ["vercel-react", "ui-ux-pro-max"]
+    },
+    "angular": {
+      "label": "Angular",
+      "detect": { "anyOf": [ { "fileExists": "angular.json" }, { "jsonDep": { "file": "package.json", "dep": "@angular/core" } } ] },
+      "skills": ["angular", "ui-ux-pro-max"]
+    },
+    "flutter": {
+      "label": "Flutter",
+      "detect": { "fileExists": "pubspec.yaml" },
+      "skills": ["vgv-flutter"]
+    },
+    "kubernetes": {
+      "label": "Kubernetes / Helm",
+      "detect": { "anyOf": [ { "fileExists": "Chart.yaml" }, { "fileExists": "kustomization.yaml" }, { "glob": "k8s/**/*.yaml" }, { "glob": "**/templates/*.yaml" } ] },
+      "skills": ["k8s"]
+    },
+    "k8s-operator": {
+      "label": "K8s Operator (kubebuilder)",
+      "detect": { "anyOf": [ { "fileExists": "PROJECT" }, { "fileContains": { "file": "go.mod", "pattern": "controller-runtime" } } ] },
+      "skills": ["k8s-operator", "k8s"]
+    },
+    "terraform": {
+      "label": "Terraform / IaC",
+      "detect": { "glob": "**/*.tf" },
+      "skills": ["terraform", "hashicorp"]
+    },
+    "security": {
+      "label": "Security (always offered)",
+      "detect": { "always": true },
+      "skills": ["trailofbits-sec", "owasp"]
+    }
+  },
+  "gaps": [
+    "Docker: no strong popular dedicated skill (best is ~8 stars). Use the multi-stack collections (jeffallan-skills) + CLAUDE.md conventions.",
+    "OpenTelemetry app-instrumentation: only o11y-dev/opentelemetry-skill (~29 stars); most 'otel' repos monitor Claude Code itself, not your app.",
+    "Kafka / event-driven: no strong popular skill found.",
+    "Go DDD / clean-architecture (dedicated): only 1-star repos match exactly; rely on cc-skills-golang + superpowers + CLAUDE.md."
+  ]
+}

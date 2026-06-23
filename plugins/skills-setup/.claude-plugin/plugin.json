@@ -1,0 +1,8 @@
+{
+  "name": "skills-setup",
+  "version": "0.1.0",
+  "description": "Detect a project's stack and install matching popular Claude Code skills from a curated index. Use when setting up or onboarding a repo, or when the user asks to recommend/install skills for their project, stack, or language (Go, Next.js, Django, Angular, Flutter, Terraform, Kubernetes, etc.).",
+  "author": {
+    "name": "panteparak"
+  }
+}

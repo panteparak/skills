@@ -1,8 +1,0 @@
-{
-  "name": "init-django",
-  "version": "0.1.0",
-  "description": "Scaffold a new Django + DRF project with DDD structure, sub-apps, TDD, and production-ready config using uv. Use when creating a new Django/Python backend service.",
-  "author": {
-    "name": "panteparak"
-  }
-}

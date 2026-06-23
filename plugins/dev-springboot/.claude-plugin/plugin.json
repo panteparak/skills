@@ -1,8 +1,0 @@
-{
-  "name": "dev-springboot",
-  "version": "0.1.0",
-  "description": "Develop features in Spring Boot + Kotlin projects using TDD, clean architecture, and enterprise patterns. Use when writing Spring Boot backend code.",
-  "author": {
-    "name": "panteparak"
-  }
-}

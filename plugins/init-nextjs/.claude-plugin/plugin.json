@@ -1,8 +1,0 @@
-{
-  "name": "init-nextjs",
-  "version": "0.1.0",
-  "description": "Scaffold a new Next.js + React + TypeScript project with proper structure and testing. Use when creating a new frontend web application.",
-  "author": {
-    "name": "panteparak"
-  }
-}

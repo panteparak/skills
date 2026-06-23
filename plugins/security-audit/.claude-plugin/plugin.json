@@ -1,8 +1,0 @@
-{
-  "name": "security-audit",
-  "version": "0.1.0",
-  "description": "Perform a security audit on code, checking for OWASP Top 10, injection, auth issues, secrets, and data exposure. Use when reviewing code for security vulnerabilities.",
-  "author": {
-    "name": "panteparak"
-  }
-}

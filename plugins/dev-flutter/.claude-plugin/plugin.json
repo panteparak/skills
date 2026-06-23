@@ -1,8 +1,0 @@
-{
-  "name": "dev-flutter",
-  "version": "0.1.0",
-  "description": "Develop features in Flutter apps using Riverpod, clean architecture, and TDD. Use when writing Flutter/Dart code.",
-  "author": {
-    "name": "panteparak"
-  }
-}

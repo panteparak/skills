@@ -1,8 +1,0 @@
-{
-  "name": "doc-flow",
-  "version": "0.1.0",
-  "description": "Generate comprehensive internal documentation \u2014 project overview, architecture, dependency graphs, component interaction flows with Mermaid sequence diagrams, port boundary crossings, data type flows, and error propagation. Use when documenting how a project is structured and how components interact at runtime.",
-  "author": {
-    "name": "panteparak"
-  }
-}

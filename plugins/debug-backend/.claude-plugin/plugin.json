@@ -1,8 +1,0 @@
-{
-  "name": "debug-backend",
-  "version": "0.1.0",
-  "description": "Systematically debug backend issues in any language using structured root cause analysis. Use when investigating bugs, errors, or unexpected behavior in backend services.",
-  "author": {
-    "name": "panteparak"
-  }
-}

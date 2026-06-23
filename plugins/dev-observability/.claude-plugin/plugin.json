@@ -1,8 +1,0 @@
-{
-  "name": "dev-observability",
-  "version": "0.1.0",
-  "description": "Set up application observability with structured logging, metrics, and distributed tracing using OpenTelemetry. Use when adding monitoring, logging, or tracing to a service.",
-  "author": {
-    "name": "panteparak"
-  }
-}

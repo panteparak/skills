@@ -1,5 +1,10 @@
 # Claude Skills Inventory
 
+> **Note (2026-06 curation reset):** the 42 self-authored skills in section C below were
+> later removed when this repo pivoted to **pure curation** (a curated index of popular skills
+> + the `skills-setup` installer — see [`README.md`](README.md)). They remain recoverable from
+> git history. This file is kept as a historical snapshot.
+
 Snapshot of everything that was installed globally on this machine before the
 2026-06-03 full reset, with exact reinstall instructions. Raw registry files are
 preserved under [`backup/registries/`](backup/registries/).

@@ -1,8 +1,0 @@
-{
-  "name": "test-generate",
-  "version": "0.1.0",
-  "description": "Generate comprehensive test cases and test suites for existing code. Analyzes code to produce unit, edge case, and error path tests. Use when you need tests for existing code.",
-  "author": {
-    "name": "panteparak"
-  }
-}

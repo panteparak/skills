@@ -1,8 +1,0 @@
-{
-  "name": "design-system",
-  "version": "0.1.0",
-  "description": "Create or audit a design system with consistent components, tokens, and patterns for web/mobile applications. Use when building or reviewing component libraries.",
-  "author": {
-    "name": "panteparak"
-  }
-}

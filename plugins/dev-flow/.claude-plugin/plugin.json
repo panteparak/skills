@@ -1,8 +1,0 @@
-{
-  "name": "dev-flow",
-  "version": "0.1.0",
-  "description": "Complete structured development workflow \u2014 Explore, Plan, Implement (TDD), Review, Document. Use when developing any feature, fixing bugs, or making significant code changes. Replaces the old /epct command.",
-  "author": {
-    "name": "panteparak"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "init-go",
-  "version": "0.1.0",
-  "description": "Scaffold a new Go service with clean architecture, DDD, and TDD. Use when creating a new Go backend service or microservice.",
-  "author": {
-    "name": "panteparak"
-  }
-}
